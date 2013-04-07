@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<particulas>
+  <particula>
+    <nombre>Esfera</nombre>
+    <nombreDibujable>EsferaDibujable</nombreDibujable>
+    <path>C:/programas c#/Esfera/esfera.dll</path>
+    <parametros>
+      <datoParametro>
+        <nombre>radio</nombre>
+        <tipo>double</tipo>
+      </datoParametro>
+    </parametros>
+    <nEnsamblado>TES1</nEnsamblado>
+    <nEnsambladoDibujable>RSAgenerator</nEnsambladoDibujable>
+    <pathDibujable>WindowsApplication1.exe</pathDibujable>
+    <nombreParametro>ParametroDeEsfera</nombreParametro>
+    <ansysWriterClase>ANSYSWriterEsfera</ansysWriterClase>
+  </particula>
+  </particulas>

@@ -1,0 +1,27 @@
+<Descriptor>
+  <particulaXml>XMLParticle.xml</particulaXml>
+  <particulaInicial>Esfera</particulaInicial>
+  <ladoCubo>10</ladoCubo>
+  <fraccionVolumetrica>0,4</fraccionVolumetrica>
+  <parametroVariable>cantidadParticulas</parametroVariable>
+  <cantidadParticulas>20</cantidadParticulas>
+  <parametros>
+    <parametro>0</parametro>
+  </parametros>
+  <spheresInBox>False</spheresInBox>
+  <colorCubo>
+    <rojo>0</rojo>
+    <verde>0,5</verde>
+    <azul>1</azul>
+    <transparencia>0,31</transparencia>
+  </colorCubo>
+  <colorParticulaAleatorio>False</colorParticulaAleatorio>
+  <colorParticulas>
+    <rojo>0,6973607</rojo>
+    <verde>0,2494785</verde>
+    <azul>0,18</azul>
+    <transparencia>0,7098767</transparencia>
+  </colorParticulas>
+  <mostrarNumeros>True</mostrarNumeros>
+  <rsaClase>RSAAdvanced</rsaClase>
+</Descriptor>

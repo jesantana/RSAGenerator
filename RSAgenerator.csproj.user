@@ -1,0 +1,48 @@
+<VisualStudioProject>
+    <CSHARP LastOpenVersion = "7.10.3077" >
+        <Build>
+            <Settings ReferencePath = "D:\Cibernética\5to ano\Tesis\TES1\bin\Debug\;d:\cibernética\5to ano\tesis\blank\bin\debug\;D:\Profiles\jesantana\Desktop\TES1\bin\Debug\;D:\Profiles\jesantana\Desktop\WindowsApplication1\bin\Debug\;D:\Profiles\jesantana\Desktop\Ultimo\TES1\bin\Debug\;D:\Profiles\jesantana\Desktop\Ultimo\WindowsApplication1\bin\Debug\;D:\Profiles\jesantana\Desktop\Ultimo\RSAgenerator\bin\Debug\;D:\Profiles\reyder\Desktop\TES1\bin\Debug\;D:\Profiles\reyder\Desktop\RSAgenerator\bin\Debug\" >
+                <Config
+                    Name = "Debug"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+                <Config
+                    Name = "Release"
+                    EnableASPDebugging = "false"
+                    EnableASPXDebugging = "false"
+                    EnableUnmanagedDebugging = "false"
+                    EnableSQLServerDebugging = "false"
+                    RemoteDebugEnabled = "false"
+                    RemoteDebugMachine = ""
+                    StartAction = "Project"
+                    StartArguments = ""
+                    StartPage = ""
+                    StartProgram = ""
+                    StartURL = ""
+                    StartWorkingDirectory = ""
+                    StartWithIE = "true"
+                />
+            </Settings>
+        </Build>
+        <OtherProjectSettings
+            CopyProjectDestinationFolder = ""
+            CopyProjectUncPath = ""
+            CopyProjectOption = "0"
+            ProjectView = "ProjectFiles"
+            ProjectTrust = "0"
+        />
+    </CSHARP>
+</VisualStudioProject>
+

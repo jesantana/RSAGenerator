@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLProjectDescriptor" targetNamespace="http://tempuri.org/XMLProjectDescriptor.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLProjectDescriptor.xsd" xmlns:mstns="http://tempuri.org/XMLProjectDescriptor.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Descriptor">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="particulaXml" type="xs:string" />
+        <xs:element name="particulaInicial" type="xs:string" />
+        <xs:element name="ladoCubo" type="xs:double" />
+        <xs:element name="fraccionVolumetrica" type="xs:double" />
+        <xs:element name="parametroVariable">
+          <xs:simpleType>
+            <xs:restriction base="xs:string">
+              <xs:enumeration value="cantidadParticulas" />
+              <xs:enumeration value="radio" />
+            </xs:restriction>
+          </xs:simpleType>
+        </xs:element>
+        <xs:element name="cantidadParticulas" type="xs:int" />
+        <xs:element name="parametros">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="parametro" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="spheresInBox" type="xs:boolean" />
+        <xs:element name="colorCubo" type="Color">
+        </xs:element>
+        <xs:element name="colorParticulaAleatorio" type="xs:boolean" />
+        <xs:element name="colorParticulas" type="Color">
+        </xs:element>
+        <xs:element name="mostrarNumeros" type="xs:boolean" />
+        <xs:element name="rsaClase" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="Color">
+    <xs:sequence>
+      <xs:element name="rojo" type="xs:double" />
+      <xs:element name="verde" type="xs:double" />
+      <xs:element name="azul" type="xs:double" />
+      <xs:element name="transparencia" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

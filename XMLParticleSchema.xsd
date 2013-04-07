@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="XMLParticleSchema" targetNamespace="http://tempuri.org/XMLParticleSchema.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/XMLParticleSchema.xsd" xmlns:mstns="http://tempuri.org/XMLParticleSchema.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="particulas">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="particula" minOccurs="1" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="nombre" type="xs:string" />
+              <xs:element name="nombreDibujable" type="xs:string" />
+              <xs:element name="path" type="xs:string" />
+              <xs:element name="parametros">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="datoParametro">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="nombre" type="xs:string" />
+                          <xs:element name="tipo" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="ansysWriterClase" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

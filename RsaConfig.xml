@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Descriptor xmlns="http://tempuri.org/XMLProjectDescriptor.xsd">
+	<particulaXml>XMLParticle.xml</particulaXml>
+	<particulaInicial>Esfera</particulaInicial>
+	<ladoCubo>10,00</ladoCubo>
+	<fraccionVolumetrica>0,30</fraccionVolumetrica>
+	<parametroVariable>cantidadParticulas</parametroVariable>
+	<cantidadParticulas>20</cantidadParticulas>
+	<parametros>
+		<parametro>0</parametro>
+	</parametros>
+	<spheresInBox>true</spheresInBox>
+	<colorCubo>
+		<rojo>0,00</rojo>
+		<verde>0,50</verde>
+		<azul>0,90</azul>
+		<transparencia>0,30</transparencia>
+	</colorCubo>
+	<colorParticulaAleatorio>false</colorParticulaAleatorio>
+	<colorParticulas>
+		<rojo>0,70</rojo>
+		<verde>0,30</verde>
+		<azul>0,00</azul>
+		<transparencia>0,65</transparencia>
+	</colorParticulas>
+	<mostrarNumeros>true</mostrarNumeros>
+	<rsaClase>RSAAdvanced</rsaClase>
+  
+</Descriptor>
+ 

@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RSAgenerator", "RSAgenerator.csproj", "{27409B09-8340-4467-8260-A4ABAA16779C}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TES1", "..\TES1\TES1.csproj", "{BB7A633B-5E40-455B-B9A6-A2FA87AD8281}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{27409B09-8340-4467-8260-A4ABAA16779C}.Debug.ActiveCfg = Debug|.NET
+		{27409B09-8340-4467-8260-A4ABAA16779C}.Debug.Build.0 = Debug|.NET
+		{27409B09-8340-4467-8260-A4ABAA16779C}.Release.ActiveCfg = Release|.NET
+		{27409B09-8340-4467-8260-A4ABAA16779C}.Release.Build.0 = Release|.NET
+		{BB7A633B-5E40-455B-B9A6-A2FA87AD8281}.Debug.ActiveCfg = Debug|.NET
+		{BB7A633B-5E40-455B-B9A6-A2FA87AD8281}.Debug.Build.0 = Debug|.NET
+		{BB7A633B-5E40-455B-B9A6-A2FA87AD8281}.Release.ActiveCfg = Release|.NET
+		{BB7A633B-5E40-455B-B9A6-A2FA87AD8281}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
